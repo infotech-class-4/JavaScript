@@ -22,25 +22,3 @@ console.log(myStudent.fullName());
 myStudent.name = "Mehmet";
 console.log(myStudent.name);
 console.log(myStudent);
-
-console.clear();
-
-const favoriteColors = ["Blue", "Green", "Red", "Yellow"];
-
-const indexToReplace = favoriteColors.indexOf("Blue");
-
-favoriteColors[0] = favoriteColors[0].replace(
-  "Blue",
-  "Maviiiii"
-);
-
-
-console.log(favoriteColors);
-// console.log(indexToReplace);
-
-// favoriteColors[indexToReplace] = favoriteColors[indexToReplace].replace(
-//   "Blue",
-//   "Mavi"
-// );
-
-// console.log(favoriteColors);
